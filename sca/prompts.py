@@ -1,6 +1,7 @@
 """Task and adjudication prompts used in the experiments."""
 
 import json
+from typing import Any
 
 
 def build_slurp_agent_prompt(hypotheses: list[str]) -> str:
