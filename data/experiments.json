@@ -1,0 +1,149 @@
+[
+  {
+    "name": "slurp_validation",
+    "dataset": "slurp",
+    "model": "Qwen3-8B",
+    "n": 8690,
+    "path": "data/predictions/slurp_validation.jsonl.gz",
+    "bootstrap_seed": 20260920,
+    "paper_location": "Table 1",
+    "methods": [
+      "all5",
+      "asr_mass",
+      "coarse_decision_dedup",
+      "one_best",
+      "scoreaware_all5",
+      "top2"
+    ],
+    "judges": [
+      "sca",
+      "sa_sca",
+      "h1_only"
+    ],
+    "sha256": "7559f791531d8067eee1b6ee7264c172b916ac32e3e6ff88c380e27a2cb53bfb",
+    "parse_policy": "valid_candidate"
+  },
+  {
+    "name": "slurp_retained_test",
+    "dataset": "slurp",
+    "model": "Qwen3-8B",
+    "n": 12578,
+    "path": "data/predictions/slurp_retained_test.jsonl.gz",
+    "bootstrap_seed": 20260920,
+    "paper_location": "Table 1",
+    "methods": [
+      "all5",
+      "one_best"
+    ],
+    "judges": [
+      "sca"
+    ],
+    "sha256": "3831b946a9bd6ddbccbc93dfa9fccb5eb8641a6f8956ac79acfeec23c15f0b33",
+    "parse_policy": "valid_candidate"
+  },
+  {
+    "name": "slurp_synthetic",
+    "dataset": "slurp",
+    "model": "Qwen3-8B",
+    "n": 1000,
+    "path": "data/predictions/slurp_synthetic.jsonl.gz",
+    "bootstrap_seed": 20260923,
+    "paper_location": "Table 1",
+    "methods": [
+      "all5",
+      "coarse_decision_dedup",
+      "one_best",
+      "scoreaware_all5"
+    ],
+    "judges": [
+      "sca",
+      "sa_sca"
+    ],
+    "sha256": "5b353b115a5c4584e4530618c4613c493a389e6d5494126b4a6381c8cd03cc45",
+    "parse_policy": "valid_candidate"
+  },
+  {
+    "name": "slurp_phi4_500",
+    "dataset": "slurp",
+    "model": "Phi-4-mini",
+    "n": 500,
+    "path": "data/predictions/slurp_phi4_500.jsonl.gz",
+    "bootstrap_seed": 20260920,
+    "paper_location": "Section 4.4",
+    "methods": [
+      "all5",
+      "one_best",
+      "scoreaware_all5",
+      "top2"
+    ],
+    "judges": [
+      "sca",
+      "sa_sca"
+    ],
+    "sha256": "251475ac20ec179f59874bc2024b958e2f67aca1b18b3b9e720aa1f52fc90753",
+    "parse_policy": "valid_candidate"
+  },
+  {
+    "name": "slurp_sampling_seed0",
+    "dataset": "slurp",
+    "model": "Qwen3-8B",
+    "n": 500,
+    "path": "data/predictions/slurp_sampling_seed0.jsonl.gz",
+    "bootstrap_seed": 20260920,
+    "paper_location": "Section 4.3",
+    "methods": [
+      "all5",
+      "one_best",
+      "scoreaware_all5"
+    ],
+    "judges": [
+      "sca",
+      "sa_sca"
+    ],
+    "generation_seed": 0,
+    "sha256": "5ac6e6b10f4fb5cec8739642c3b68655983c7f02f23c6c76f2a33eab92586863",
+    "parse_policy": "retain_first"
+  },
+  {
+    "name": "slurp_sampling_seed1",
+    "dataset": "slurp",
+    "model": "Qwen3-8B",
+    "n": 500,
+    "path": "data/predictions/slurp_sampling_seed1.jsonl.gz",
+    "bootstrap_seed": 20260920,
+    "paper_location": "Section 4.3",
+    "methods": [
+      "all5",
+      "one_best",
+      "scoreaware_all5"
+    ],
+    "judges": [
+      "sca",
+      "sa_sca"
+    ],
+    "generation_seed": 1,
+    "sha256": "f8f3c911465325db77dfa84a4551a38c2f30dfab138b43c95d0a2016739485fa",
+    "parse_policy": "retain_first"
+  },
+  {
+    "name": "slurp_sampling_seed2",
+    "dataset": "slurp",
+    "model": "Qwen3-8B",
+    "n": 500,
+    "path": "data/predictions/slurp_sampling_seed2.jsonl.gz",
+    "bootstrap_seed": 20260920,
+    "paper_location": "Section 4.3",
+    "methods": [
+      "all5",
+      "one_best",
+      "scoreaware_all5"
+    ],
+    "judges": [
+      "sca",
+      "sa_sca"
+    ],
+    "generation_seed": 2,
+    "sha256": "c3604206be78cc9972af73d1fc776c87604b0c41de9de3dc7dfacd355ba77e08",
+    "parse_policy": "retain_first"
+  }
+]

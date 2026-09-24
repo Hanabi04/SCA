@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying paper."
+type: software
+title: "Selective Adjudication of ASR N-Best Decisions for Task-Oriented Voice Agents"
+authors:
+  - family-names: "He"
+    given-names: "Guorui"
+  - family-names: "Jin"
+    given-names: "Zelin"
+  - family-names: "Fan"
+    given-names: "Jiabin"
+repository-code: "https://github.com/Hanabi04/SCA"
+license: MIT

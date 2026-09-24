@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "object": {
+      "type": "string",
+      "enum": [
+        "Chinese",
+        "English",
+        "German",
+        "Korean",
+        "heat",
+        "juice",
+        "lamp",
+        "lights",
+        "music",
+        "newspaper",
+        "none",
+        "shoes",
+        "socks",
+        "volume"
+      ]
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "activate",
+        "bring",
+        "change language",
+        "deactivate",
+        "decrease",
+        "increase"
+      ]
+    },
+    "location": {
+      "type": "string",
+      "enum": [
+        "bedroom",
+        "kitchen",
+        "none",
+        "washroom"
+      ]
+    }
+  },
+  "required": [
+    "object",
+    "action",
+    "location"
+  ],
+  "additionalProperties": false
+}
